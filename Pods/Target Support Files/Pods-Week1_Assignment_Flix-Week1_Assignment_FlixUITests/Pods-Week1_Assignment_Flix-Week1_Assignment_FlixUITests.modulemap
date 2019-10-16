@@ -1,0 +1,6 @@
+framework module Pods_Week1_Assignment_Flix_Week1_Assignment_FlixUITests {
+  umbrella header "Pods-Week1_Assignment_Flix-Week1_Assignment_FlixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
