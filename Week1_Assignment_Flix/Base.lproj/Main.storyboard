@@ -161,33 +161,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6EP-bz-fLs">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Lme-oe-K5E">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fM0-TK-wd0">
-                                    <size key="itemSize" width="179" height="247"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="tqZ-du-CnF">
+                                    <size key="itemSize" width="169" height="216"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieGridCell" id="53r-WU-Eer" customClass="MovieGridCell" customModule="Week1_Assignment_Flix" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="179" height="247"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieGridCell" id="eHh-gJ-zfy" customClass="MovieGridCell" customModule="Week1_Assignment_Flix" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="169" height="216"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Awm-Tr-nC5">
-                                            <rect key="frame" x="0.0" y="0.0" width="179" height="247"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yKZ-uF-Xoj">
+                                            <rect key="frame" x="0.0" y="0.0" width="169" height="216"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AvM-OO-lUi">
-                                                    <rect key="frame" x="0.0" y="0.0" width="179" height="245"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IXY-6L-0uL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="169" height="216"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="179" height="247"/>
+                                        <size key="customSize" width="169" height="216"/>
                                         <connections>
-                                            <outlet property="posterView" destination="AvM-OO-lUi" id="0QY-Y6-gzR"/>
+                                            <outlet property="posterView" destination="IXY-6L-0uL" id="LPj-co-cjh"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -198,7 +198,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Superhero" id="eqP-Fq-5Fz"/>
                     <connections>
-                        <outlet property="collectionView" destination="6EP-bz-fLs" id="9c0-cm-Cc1"/>
+                        <outlet property="collectionView" destination="Lme-oe-K5E" id="FZ1-lC-z4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nei-Zh-njI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
